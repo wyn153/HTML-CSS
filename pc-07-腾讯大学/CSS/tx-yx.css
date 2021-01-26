@@ -1,0 +1,137 @@
+.nav{
+    width: 1440px;
+    height: 79px;
+    /* background-color: lightgoldenrodyellow; */
+    overflow: hidden;
+    margin: 0 auto;
+}
+.nav-frist{
+    margin:0 12px 0 130px;
+}
+.nav-ul{
+    width: 98px;
+}
+.nav-frist img{
+ float: left;
+ margin-right: 7px;
+ margin-top: 21px;
+}
+.nav-frist-ul dt{
+    font-size: 22px;
+    font-style: italic;
+    margin-top: 23px;
+    line-height: 22px;
+    color: #111111;
+    padding-right: 10px;
+    /* 文字自带边距，行高等于高，清除边距 */
+}
+.nav-ul dd{
+    font-size: 8px;
+    font-style: italic;
+    line-height: 8px;
+    margin-top: 4px;
+    color: #111111;
+}
+.nav p{
+    float: left;
+    font-size: 14px;
+    color: #707070;
+    border-left: 1px solid #707070;
+    height: 29px;
+    line-height: 29px;
+    margin-top: 27px;
+    padding-left: 11px;;
+}
+
+/* center */
+.nav-center-ul{
+    /* width: 614px; */
+  width: 679px; 
+}
+.nav-center-ul a{
+    display: block;
+    background: url(../images/nav.png) no-repeat 0 0;
+    float: left;
+    height: 79px;
+    /* border: solid 1px black; */
+    margin-right: 2px;
+    text-indent: -100%;
+    /* 首行文本缩进 */
+    overflow: hidden;
+}
+.nav-center li:nth-child(1) a{
+      width: 98px;
+      margin-left: 65px;
+      /* **X:nth-child(n)**用于匹配索引值为n的子元素。索引值从1开始*/
+}
+.nav-center li:nth-child(2) a{
+    width: 122px; 
+    background-position: -100px 0;
+}
+.nav-center li:nth-child(3) a{
+    width: 144px;
+    background-position: -224px 0;
+}
+.nav-center li:nth-child(4) a{
+    width: 118px;
+    background-position: -370px 0;
+}
+.nav-center li:nth-child(5) a{
+    width: 122px;
+    background-position: -614px 0;
+}
+.nav-center a:hover,#fixd{
+    background: url(../images/nav-on.png) no-repeat;
+}
+
+/*right */
+.nav-right>img{
+    float: left;
+    margin-top: 26px;
+    padding-right: 20px;
+    border-right: 1px solid #dcdcdc;
+}
+.nav-right ul{
+    float: left;
+    
+}
+.nav-right dt{
+    margin:16px 142px 0 21px ;
+}
+.nav-right dd{
+    font-size: 11px;
+    color: #a1968c;
+    margin: 1px 143px 0 28px;
+}
+
+/* 图片 */
+.img{
+    height: 360px;
+    width: 1441px;
+    position: relative;
+    margin: 0 auto;
+}
+.img img{
+    border-bottom: 1px solid #706c6e;
+    position: absolute;
+}
+/*  */
+.img-bottom{
+    width: 1441px;
+    height: 37px;
+    margin: 0 auto;
+    background: url(../images/logo-5.jpg) center 16px no-repeat;
+}
+.img-bottom img{
+ float: left;
+ margin: 8px 11px 0 208px;
+}
+.img-bottom p{
+    float: left;
+    color: #000000;
+    margin-top: 11px;
+}
+.main{
+    background-color: #d6dae2;
+    height: 1713px;
+}

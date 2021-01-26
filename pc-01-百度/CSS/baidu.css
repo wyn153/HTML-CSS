@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul,li,ol{
+    list-style: none;
+    /* 没有任何修饰 */
+}
+a{
+    text-decoration: none;
+    /* 线条修饰为没有 */
+}
+.header{
+    height: 100px;
+    background-color: burlywood;
+    font-size: 23px;
+    color: #222222;
+}
+
+/* 头部 左*/
+.header-one{
+    float: left;
+}
+.header-aa{
+    margin-left: 45px;
+}
+.header-one li{
+    float: left;
+    margin-right: 60px;
+    margin-top: 46px; 
+}
+
+.header-one a{
+    font-size: 23px;
+    color: #222222;
+}
+
+.header-one a:hover{
+    color: cornflowerblue;
+}
+
+/* 头部右 */
+
+.header-two{
+    float: right;
+    margin-right: 46px;
+}
+.header-two li{
+    float: right;
+}
+.aa,.cc,.ee,.gg{
+    margin-top: 47px;
+}
+.gg{
+    margin-right: 19px;
+}
+.ff{
+    margin-top: 42px;
+    margin-right: 13px;
+}
+.ee{
+    margin-right: 16px;
+}
+.dd{
+    margin-top: 42px;
+    margin-right: 60px;
+}
+.cc{
+    margin-right: 60px;
+}
+.bb{
+    margin-top: 29px;
+    margin-right: 13px;
+}
+
+
+/* 身体 */
+.nav{
+    height: 557px;;
+    background-color: darkkhaki;
+    text-align: center;
+    overflow: hidden;  
+}
+.nav-frist{
+     margin:300px auto 0px; 
+}
+.nav-img{
+    margin-bottom: 50px;
+
+}
+.nav-a{
+    border: #c4c7ce 3px solid;
+    width:1020px;
+    height: 76px;
+    /* float: left; */
+    border-radius: 17px 0px 0px 17px;
+    /* 加圆角边框 */
+    background:url(../img/txt.jpg) no-repeat 950px center;
+
+}
+
+.nav-b{
+    width: 203px;
+    height: 82px;
+    background: #4e6ef2;
+    font-size: 29px;
+    color: #ffffff;
+    /* float: left; */
+    border-radius:  0px 17px 17px 0px;
+    /* 加圆角边框 */
+    border: 0;
+}
+
+
+
+/* 尾部 */
+.main{
+    overflow: hidden; 
+     height: 966px;  background-color:yellow;
+     padding-top: 346px;
+}
+
+.main-frist{
+    margin-left: 768px;
+    
+}
+
+.main-one li{
+font-size: 26px;
+color: #9195a3;
+text-decoration: none;
+/* 去除下划线 */
+float: left;
+margin-right: 46px;
+/* margin-bottom: 54px; */
+}
+
+.main-one li:hover{
+    color: #222222;
+    border-bottom: 5px solid #4e6ef2;
+}
+.main-two dl{
+    /* margin-left: 15px;
+   */
+   width: 123px;
+   background-color: aqua;
+   text-align: center;
+   float: left;
+}

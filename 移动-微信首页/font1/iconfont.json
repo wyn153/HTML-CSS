@@ -1,0 +1,51 @@
+{
+  "id": "2163255",
+  "name": "笔记",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "493454",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e79f",
+      "unicode_decimal": 59295
+    },
+    {
+      "icon_id": "568990",
+      "name": "通讯录",
+      "font_class": "tongxunlu",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "797263",
+      "name": "我",
+      "font_class": "wo",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "1977010",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "7100392",
+      "name": "发现",
+      "font_class": "faxian",
+      "unicode": "e726",
+      "unicode_decimal": 59174
+    },
+    {
+      "icon_id": "12686755",
+      "name": "加",
+      "font_class": "icon-",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    }
+  ]
+}

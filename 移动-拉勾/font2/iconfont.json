@@ -1,0 +1,30 @@
+{
+  "id": "2163255",
+  "name": "笔记",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11474203",
+      "name": "auto",
+      "font_class": "auto",
+      "unicode": "e6eb",
+      "unicode_decimal": 59115
+    },
+    {
+      "icon_id": "608563",
+      "name": "搜索",
+      "font_class": "fangdajing",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "7338611",
+      "name": "扫描",
+      "font_class": "saomiao",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    }
+  ]
+}

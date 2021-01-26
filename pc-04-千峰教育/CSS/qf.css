@@ -1,0 +1,275 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul,li,ol{
+    list-style: none;
+}
+a,u{
+    text-decoration: none;
+    font-size: 12px;
+ 
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 12px;
+    font-weight: normal;
+}
+body{
+    font-size: 12px;
+}
+em,i{
+    font-style: normal;
+}
+b,strong{
+    font-weight: normal;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+/* 头部 */
+.nav{
+    height: 62px;
+    width: 1100px;
+    background-color:#232323;
+    margin: 0 auto;
+}
+.nav img{
+    margin: 10px 0px 0px 50px;
+}
+.nav ul{
+    float: right;
+}
+.nav li{
+    float: left;
+}
+.nav a{
+    display: block;
+    height: 23px;  
+    margin-top: 23px;
+    border-right: 1px solid #444444;
+    padding-right: 13px;
+    border-left: 1px solid #000000;
+    padding-left: 15px;
+    color: #fefeff;
+}
+.nav .nav-right{
+    margin-right: 64px;
+    border-right: 0;
+}
+.nav .nav-left{
+    border-left: 0;
+}
+
+/* 图片 */
+
+/* .banner{
+    background: lemonchiffon;
+} */
+.banner img{
+    height: 420px;
+    width: 1100px;
+    display: block; 
+    margin: 0 auto;
+    border-bottom: 1px solid #a8a8a8;
+}
+
+/* 栏目 */
+.column{
+    width: 1102px;
+    height: 352px;
+    margin: 0px auto;
+    background-color:#f5f5f5; 
+    overflow: hidden;
+}
+.column .column-border{
+    height: 287px;
+    float: left;
+    margin-top: 35px;
+}
+.column-a,.column-b,.column-c,.column-d{
+    width: 254px;
+    height: 296px;
+    padding-top: 56px;
+    text-align: center;
+}
+.column-a{
+     /* background-color: lightblue;  */
+    margin-left: 43px;
+}
+ /* .column-b{
+    background-color:lightpink;
+}
+.column-c{
+    background-color:yellowgreen;
+} */
+.column-d{
+    /* background-color:lightblue; */
+    margin-right: 36px;
+}
+
+.column h4{
+    font-size: 22px;
+    color: #262d3d;
+    margin-top: 14px;
+    margin-bottom: 19px;
+}
+.column h3{
+    color: #536d7c;
+    margin-bottom: 16px;
+}
+.column li{
+    color: #a4bbcd;
+    line-height: 18px;
+}
+
+
+
+
+/* 底部 */
+
+ .service{
+    width: 1100px;
+    height: 310px;
+    /* background-color: yellowgreen; */
+    margin: 0 auto;
+    overflow: hidden;
+} 
+.service-left{
+    width: 355px;
+    height: 310px;
+    /* background-color: whitesmoke; */
+}
+
+
+.service-center{
+    width: 320px;
+    height: 310px;
+    /* background-color: wheat; */
+}
+.service-right{
+    width: 378px;
+    height: 308px;
+    /* background-color: white; */
+}
+/* 左 */
+.service-img{
+border: 1px solid #dddddd;
+padding: 1px;
+margin: 40px 0px 0px 39px;
+}
+
+.service h4{
+font-size: 18px;
+color: #010002;
+
+margin-top: 45px;
+}
+.service-p1{
+    width:300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* border: 1px solid black; */
+    /* line-height: 31px;  */
+    font-size: 15px;
+    margin-top: 17px;
+}
+.service-p2{
+    color: #999999;
+    line-height: 18px;
+    margin-top: 13px;
+    text-indent: 2em;
+    border-bottom: 1px #cbcbcb dashed;
+    padding-bottom: 13px;
+}
+.service-p3 p{
+    width: 270px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    line-height: 25px; 
+    background: url(../images/Navicat.jpg) no-repeat left center;
+    padding-left: 15px;
+    margin-left: 1px;
+}
+/*  */
+.service h4{
+   margin-bottom: 13px;
+}
+.service-boder2{
+    height: 220px;
+    margin:44px 25px 0px 20px;
+}
+/*  右·*/
+.service-right{
+    margin-bottom: 19px;
+}
+.service-right-img1{
+ margin-bottom: 29px;
+}
+.service-right-li{
+margin-top: 17px;
+}
+.service-right li{
+    color: #676566;
+    line-height: 24px;
+}
+/* 底部 */
+.footer{
+    width: 1100px;
+    height: 216px;
+    background-color: #222222;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.footer-left{
+    margin-left: 49px;
+}
+.footer-a{
+    width: 88px;
+    height: 216px;
+    /* border: blanchedalmond 1px solid; */
+}
+.footer h3{
+ font-size: 14px;
+ color: #ffffff;
+ margin-top: 51px;
+ margin-bottom: 18px;
+}
+
+.footer li
+{
+color:#999999;
+line-height: 24px;
+}
+.footer .footer-center{
+    width: 100px;
+}
+
+/* 右 */
+.footer-right{
+    margin: 20px 63px 0px 0px;
+}
+.footer-right p{
+   color: #464741;
+}
+.footer-right-p{
+    text-align: center;
+}
+.footer-right-logo{
+    margin: 30px 64px 0px 0px ;
+}
+/* 版权 */
+.copyright{
+    width: 1100px;
+    height: 40px;
+    background-color: #101010;
+    color: #9a9a9a;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 40px;
+}

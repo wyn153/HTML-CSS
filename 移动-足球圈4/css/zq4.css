@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 31.25vw;
+}
+html,body{
+    height: 100%;
+}
+body{
+    background-color: #ffffff;
+}
+/* 头部 */
+.header{
+    height: 0.44rem;
+    background-color: #0dc441;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.17rem;
+    color: #ffffff;
+}
+/* 身体 */
+.conter{
+    padding: 0 0.16rem;
+    height: 100%;
+    /* background-color: antiquewhite; */
+}
+.conter form{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+}
+.form1 input{
+    font-size: 0.12rem;
+    border-bottom: 1px solid #7f7f7f;
+   height: 0.49rem;
+   margin-bottom: 0.11rem;
+}
+.form2{
+    
+    margin-top: 0.29rem;
+}
+.form2 input{
+    height: 0.44rem;
+    text-align: center;
+     font-size: 0.16rem;
+   color: #ffffff;
+    background-color: #0dc441;
+    border-radius: 0.05rem;
+}

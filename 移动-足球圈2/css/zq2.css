@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 31.25vw;
+}
+html,body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+/* 头 */
+.header{
+    background-color: #0dc441;
+    height:0.44rem;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.header a{
+    width: 0.59rem;
+    height: 0.24rem;
+    font-size: 0.12rem;
+    line-height: 0.24rem;
+    /* border: royalblue 1px solid; */
+    text-align: center;
+}
+.header a:nth-child(1){
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0.12rem 0 0 0.12rem;
+    color:  rgba(255, 255, 255, 0.7);
+}
+.header a:nth-child(2){
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0 0.12rem 0.12rem 0;
+    color:  rgba(255, 255, 255, 0.8);
+}
+
+
+/* 身体 */
+.conter{
+    flex: 1;
+    background-color: #f1f1f1;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: auto; 
+}
+.conter-box{
+    
+    /* height: 74.5px; */
+    background-color: #ffffff;
+    border-bottom: solid 1px #e5e5e5;
+    margin-bottom: 0.05rem;
+}
+.conter-logo{
+    height:0.75rem;
+    width: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+article img{
+width: 0.48rem;
+height: 0.48rem;
+}
+
+.conter-box span:nth-child(1){
+  font-size: 0.13rem;
+  font-weight: 700;
+}
+.conter-box span:nth-child(2){
+    font-size: 0.12rem;
+  }
+.conter article{
+    height: 0.745rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.conter-box p{
+    font-size: 0.12rem;
+}
+
+.conter-box h1{
+    padding: 0.18rem 0;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-between !important;
+}
+.conter-box>img{
+   /* border-bottom:#ceb88e 1px solid;  */
+    width: 100%;
+   
+}
+.conter-box p{
+    line-height: 0.24rem;
+    height: 0.24rem;
+    padding-left: 0.21rem;
+}
+
+
+
+
+/* 结尾 */
+.footer{
+    height: 0.44rem;
+    /* background-color: rosybrown; */
+}
+
+.footer{
+    padding: 0 0.12rem;
+    display: flex;
+    justify-content: space-between;
+}
+.footer a{
+    font-size: 0.12rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0.05rem;
+    justify-content: space-between;
+    align-items: center;
+    color: #cccccc;
+}
+.footer a:nth-child(1){
+    color: #0dc441;
+}
+.footer a:nth-child(3){
+    position: relative;
+}
+.footer img{
+    width: 0.525rem;
+    position: absolute;
+    bottom: 0;
+}

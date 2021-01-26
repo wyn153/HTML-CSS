@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 412px;
+            height: 507px;
+            margin: 0 auto;
+            border: 1px solid black;
+            padding: 25px;
+        }
+        fieldset{
+          border: none;
+          /* 先清除边框 */
+          border-top: 1px solid #c9dca6;
+          /* 再设置单独的上边框,则显示字压着线的样式 */
+          padding-left: 20px;
+          /* 左边的横线像右扩大20像素 */
+          font-weight: 700;
+        }
+
+#aa{
+    width: 151px;
+    border: 1px solid #7f9db9;
+    height: 18px;
+}
+textarea{
+    resize: none;
+    /* 取消文本框拖拽作用 */
+    width: 350px;
+    margin: 0 auto;
+    overflow-y: scroll;
+    /* 不管内容有没有超出都有滚动条 */
+}
+    </style>
+</head>
+<body>
+            <div class="box">
+<!-- 文字覆盖横线 -->
+<form action="">
+         <fieldset>
+             <legend>个人信息</legend>
+         </fieldset>
+
+         <label for="aa">姓名*</label>
+         <input type="text" id="aa">
+
+         <br>
+         <label for="aa">地址*</label>
+         <input type="text" id="aa">
+         <br>
+<!-- 下拉列表 -->
+                       <span>出生</span>
+                        <select name="" id="">
+                            <option value="" selected disabled>年</option>
+                            <!-- selected默认选中 disabled 禁选 -->
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                        </select>
+                        <select name="" id="">
+                            <option value="" selected disabled>月</option>
+                            <!-- selected默认选中 disabled 禁选 -->
+                            <option value="" >1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                        </select>
+
+                        <select name="" id="">
+                            <option value="" selected disabled>日</option>
+                            <!-- selected默认选中 disabled 禁选 -->
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                        </select>
+<br>                        
+                                <span>性别</span>
+                            <select name="" id="">
+                                    <option value="" disabled selected>性别</option>
+                                    <option value="">男</option>
+                                    <option value="">女</option>
+                            </select>
+
+          <fieldset>
+              <legend>  其他信息</legend>
+          </fieldset>  
+
+          <fieldset>
+            <legend>  你喜欢这个表单吗？</legend>
+        </fieldset>      
+        
+<!-- 单选框 -->
+        <span>喜欢</span>
+        <input type="radio" name="bb">
+        <span>不喜欢</span>
+        <input type="radio" name="bb">
+ 
+
+        <fieldset>
+            <legend>  你喜欢什么运动？</legend>
+        </fieldset>      
+        
+<!-- 多选框 -->
+        <span>足球</span>
+        <input type="checkbox" name="bb">
+        <span>篮球</span>
+        <input type="checkbox" name="bb">
+        <span>羽毛球</span>
+        <input type="checkbox" name="bb">
+
+<!-- 文本框 -->
+        <fieldset>
+            <legend> 请写一下建议</legend>
+        </fieldset>    
+<textarea name="" id="" cols="30" rows="10">
+</textarea>
+
+<!-- 提交按钮 -->
+        <input type="submit" width="115px" height="21px" value="提交个人信息">
+        
+</form>
+    </div>
+</body>
+</html>

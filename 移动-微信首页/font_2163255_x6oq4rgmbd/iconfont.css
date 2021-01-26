@@ -1,0 +1,29 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1604631322645'); /* IE9 */
+  src: url('iconfont.eot?t=1604631322645#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPoAAsAAAAACAgAAAOcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqDRIMWATYCJAMQCwoABCAFhG0HSBsIBxEVnPPIfiTYtnHSVX2JFXWSzgQB4nKXJj86c8fFniGm3q05R6gmTNRkSc6iR/+QtJy/NKMECJDy+b93+qf4b1zLchlz0djU+8f/iQLMwjSwsSZFYaAFgi2HG6/Co+swBGCFHzGI4iXLV0dHQUYJQLRv06oJesqPqhELdAQWJQsVYiImdM2snQUm+L8Xb0gSOmiYJOSoyi1LNKfw8+bPF8vBxmDqSzPDx4sC4jKQQAygQLQujTdFhqUYJFZ6d0UaoKOjwVhtnZ8vNgxs3ItdpwnQev95wgJC2gCQgsoSnje3VdDgeWd9mWMxMt4AqQDQwxozcAji9PEvEAi0ZJ8wlz41p49xcbn6sOb127U23Ch34xrqVmNw9amzlq1wvyGuw0XVT14tfPVWjXPXrAtuVKsxrWDFkH42csjqMSvRbBxh8CprW00oWCOkraboLf2mL3drWnN62PKtHtUbL3VZuSiyRu2ZnrO2hdeqMc3aesUGr7q1ZnjPbjx1pmuNmtVrzYmqWWuFd7FlVfKT8wbnP340yq1XUItG1m49y49olBNf22zUKV29bvB+l0Ud6q6gaXmfklndaqeXCahSi84tD+wacNOtdcSJllVLNp9XvO6sDi0GhhavMjX96IXzvdzs3cjtsnbNGueZITOdvVZziNlZnUieU2LvnEVWYT0/r/du82A50kQTg945waG9sVbJi7f9b/9hAN3whZ3V8O1ZcVaH9753irA5sXp2XtSPP0NB406qUHPz+l/BV/82jzo9at/lMX6OzoDxzZgkP8p+xl+jv1JyOBjn5Gdp/p2D2Oy0vGgj+5xvuvX1ZO+cvuvla/vp2ifM8E8MuuHn2dSo6b9KGSbiV0rzGt9s6q+hfQZFVu+CBljRNBg47cT9MZyuOgkCHdcYGoXwhUQnhFZ8DExYkwILdPJhRTSlllvjTFckQlkCUYwACBzYAA07DkDiwDla8fdgwo13sMBBSFiBeLXbcG1fuToKGkUP9g+l445YSFeB+Ib5uzGSNPnCC6Uvs5BGSbZ6xQ5ljCn9J89UCUi4hQsch03DEIQrdBoVquEQx1T2oshxO1g5EshQyAPWHyg5rENuc7XKff8G5d4ahtRI6uovSPTKzkEqkrSgr/auleRanul95DJKEUAEa4ELRFFDSwyE8n4V5KhI0aMQHMS4EbW1R/M72weoE+sgXVWakEIJE9tPcmfT5Q0eOfzHxvsFmQ9LqTgYAA==') format('woff2'),
+  url('iconfont.woff?t=1604631322645') format('woff'),
+  url('iconfont.ttf?t=1604631322645') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1604631322645#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-RectangleCopy:before {
+  content: "\e6a2";
+}
+
+.icon-add:before {
+  content: "\e664";
+}
+
+.icon-favorite:before {
+  content: "\e670";
+}
+

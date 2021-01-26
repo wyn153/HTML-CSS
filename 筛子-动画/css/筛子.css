@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+article{
+    width: 200px;
+    height: 200px;
+   position: relative;
+   margin: 150px auto;
+   transform-style: preserve-3d;
+   transform: rotateX(20deg) rotateY(20deg);
+   animation:move 5s linear infinite;
+   transform-origin: 50% 50% -100px;
+}
+div{
+    position: fixed;
+    justify-items: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    /* border: black 1px solid; */
+
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-areas:
+'a1 a2 a3'
+'a4 a5 a6'
+'a7 a8 a9' ;
+border-radius: 10px;
+border:2px solid #cccccc;
+/* transition: 3s; */
+background:  rgba(227, 222, 237, 0.2);
+box-shadow:-5px 0 0 0 #d8d8d8 inset,0 1px 0 0 #d6d6d6 inset,0 4px 0 0 #ffffff inset,0 -5px 0 0 #bbbbbb inset,1px 0 0 0px #b4b4b4 inset,1px 0 0 0 #dcdcdc inset,3px 0 0 0 #d7d7d7 inset;
+
+}
+.c{
+    transform-origin: center top;
+    transform: rotateX(-90deg);
+  }
+  .a{
+    transform-origin: center bottom;
+    transform: rotateX(90deg);
+  }
+  .b{
+    transform-origin:left center;
+    transform: rotateY(90deg);
+  }
+  .d{
+    transform-origin:right center;
+    transform: rotateY(-90deg);
+  }
+
+  .e{
+      transform: translateZ(-200px);
+  }
+  @keyframes move{
+      0%{
+          transform: rotateX(0deg)
+          rotateY(0deg);
+      }
+      100%{
+          transform: rotateX(360deg) rotateY(360deg);
+      }
+  }
+p{
+    width: 50px;
+    height: 50px;
+    background-color: #333333;
+    box-shadow: 0 3px 0 0 #0c0c0c inset,0 -3px 0 0 #555555 inset;
+    border-radius: 50%;
+}
+
+div:nth-child(1) p{
+    grid-area:a5;
+}
+div:nth-child(2) p:nth-child(2){
+    grid-area:a9;
+}
+div:nth-child(3) p:nth-child(2){
+    grid-area:a5;
+}
+
+div:nth-child(3) p:nth-child(3){
+    grid-area:a9;
+}
+div:nth-child(4) p:nth-child(2){
+    grid-area:a3;
+}
+div:nth-child(4) p:nth-child(3){
+    grid-area:a7;
+}
+div:nth-child(4) p:nth-child(4){
+    grid-area:a9;
+}
+div:nth-child(5) p:nth-child(2){
+    grid-area:a3;
+}
+div:nth-child(5) p:nth-child(3){
+    grid-area:a5;
+}
+div:nth-child(5) p:nth-child(4){
+    grid-area:a7;
+}
+div:nth-child(5) p:nth-child(5){
+    grid-area:a9;
+}
+div:nth-child(6) p:nth-child(2){
+    grid-area:a3;
+}
+div:nth-child(6) p:nth-child(3){
+    grid-area:a4;
+}
+div:nth-child(6) p:nth-child(4){
+    grid-area:a6;
+}
+div:nth-child(6) p:nth-child(5){
+    grid-area:a7;
+}
+div:nth-child(6) p:nth-child(6){
+    grid-area:a9;
+}
